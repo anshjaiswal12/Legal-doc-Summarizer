@@ -7,6 +7,11 @@ def bundle():
         zipf.write('outputs/reports/five_contract_summaries.pdf')
         zipf.write('outputs/reports/extractive_vs_abstractive_report.docx')
         zipf.write('outputs/summaries/ten_contract_results.json')
+        zipf.write('app.py')
+        zipf.write('run_app.sh')
+        zipf.write('requirements.txt')
+        zipf.write('setup_env.sh')
+        zipf.write('project_state.md')
         for root, _, files in os.walk('src'):
             for f in files:
                 zipf.write(os.path.join(root, f))

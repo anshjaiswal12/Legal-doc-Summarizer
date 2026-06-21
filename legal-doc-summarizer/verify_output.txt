@@ -1,0 +1,13 @@
+--- Environment Verification ---
+torch version: 2.12.1+cu130
+CUDA is available. Device 0: NVIDIA GeForce RTX 3060 Laptop GPU
+transformers version: 5.12.1
+peft version: 0.19.1
+datasets version: 5.0.0
+WARNING: datasets version is >= 4.0. Script-based dataset loading is unavailable. CUAD must be loaded from raw JSON (expected for Phase 1).
+
+--- Testing Tokenizer Loads ---
+Loading sshleifer/distilbart-cnn-12-6 tokenizer...
+Successfully loaded distilbart tokenizer.
+Loading t5-small tokenizer...
+Successfully loaded t5-small tokenizer.

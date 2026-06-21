@@ -1,0 +1,18 @@
+# Virtual Environments
+venv/
+legal-doc-summarizer/venv/
+
+# Python Cache
+__pycache__/
+*.pyc
+
+# Datasets (Avoid uploading large arrow / raw data files)
+legal-doc-summarizer/data/
+legal-doc-summarizer/notebooks/data/
+
+# Model checkpoints / Fine-tuned adapter weights
+legal-doc-summarizer/outputs/models/
+
+# Zip submission (optional, but good to exclude from repo source tracking if too large)
+*.zip
+legal-doc-summarizer/*.zip

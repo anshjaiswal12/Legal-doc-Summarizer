@@ -13,7 +13,7 @@ from src.data_prep import load_billsum, download_cuad_json, load_cuad_raw, flatt
 billsum = load_billsum()
 print("BillSum sizes:", {k: len(v) for k, v in billsum.items()})
 
-json_path = download_cuad_json('../data/raw/cuad/CUAD_v1.json')
+json_path = download_cuad_json('../data/raw/cuad/CUADv1.json')
 raw = load_cuad_raw(json_path)
 flat = flatten_cuad(raw)
 grouped = group_cuad_by_contract(flat)

@@ -6,11 +6,19 @@ from datasets import load_dataset
 def load_billsum():
     return load_dataset("FiscalNote/billsum", cache_dir="data/raw/billsum/")
 
-def download_cuad_json(target_path: str = "data/raw/cuad/CUAD_v1.json"):
+def download_cuad_json(target_path: str = "data/raw/cuad/CUADv1.json"):
+    import zipfile
     os.makedirs(os.path.dirname(target_path), exist_ok=True)
     if not os.path.exists(target_path):
-        url = "https://github.com/TheAtticusProject/cuad/raw/main/data/CUAD_v1.json"
-        urllib.request.urlretrieve(url, target_path)
+        zip_url = "https://github.com/TheAtticusProject/cuad/raw/main/data.zip"
+        zip_path = os.path.join(os.path.dirname(target_path), "data.zip")
+        req = urllib.request.Request(zip_url)
+        req.add_header("User-Agent", "Mozilla/5.0")
+        resp = urllib.request.urlopen(req, timeout=120)
+        with open(zip_path, "wb") as f:
+            f.write(resp.read())
+        with zipfile.ZipFile(zip_path, "r") as zf:
+            zf.extract("CUADv1.json", os.path.dirname(target_path))
     return target_path
 
 def load_cuad_raw(json_path: str):

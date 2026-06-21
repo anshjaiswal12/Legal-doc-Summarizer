@@ -24,17 +24,27 @@ def chunk_document(text: str, tokenizer, max_tokens: int = 1024, overlap: int = 
             current_length += len(sentence_tokens)
             i += 1
         else:
-            chunks.append(" ".join(current_chunk))
-            overlap_length = 0
-            overlap_sentences = []
-            for j in range(len(current_chunk)-1, -1, -1):
-                stoks = tokenizer.encode(current_chunk[j], add_special_tokens=False)
-                if overlap_length + len(stoks) > overlap and overlap_sentences:
-                    break
-                overlap_sentences.insert(0, current_chunk[j])
-                overlap_length += len(stoks)
-            current_chunk = overlap_sentences
-            current_length = overlap_length
+            if not current_chunk:
+                current_chunk.append(sentences[i])
+                current_length += len(sentence_tokens)
+                i += 1
+            else:
+                chunks.append(" ".join(current_chunk))
+                overlap_length = 0
+                overlap_sentences = []
+                for j in range(len(current_chunk)-1, -1, -1):
+                    stoks = tokenizer.encode(current_chunk[j], add_special_tokens=False)
+                    if overlap_length + len(stoks) > overlap and overlap_sentences:
+                        break
+                    overlap_sentences.insert(0, current_chunk[j])
+                    overlap_length += len(stoks)
+                
+                if len(overlap_sentences) == len(current_chunk) and len(current_chunk) > 0:
+                    overlap_sentences = overlap_sentences[1:]
+                    overlap_length = sum(len(tokenizer.encode(s, add_special_tokens=False)) for s in overlap_sentences)
+                
+                current_chunk = overlap_sentences
+                current_length = overlap_length
     
     if current_chunk:
         chunks.append(" ".join(current_chunk))

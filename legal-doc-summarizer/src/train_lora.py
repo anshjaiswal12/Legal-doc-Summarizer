@@ -1,5 +1,5 @@
 import torch
-from transformers import AutoModelForSeq2SeqLM, AutoTokenizer, Seq2SeqTrainingArguments, Seq2SeqTrainer
+from transformers import AutoModelForSeq2SeqLM, AutoTokenizer, Seq2SeqTrainingArguments, Seq2SeqTrainer, DataCollatorForSeq2Seq
 from peft import get_peft_model, LoraConfig, TaskType
 from datasets import Dataset
 
@@ -55,12 +55,15 @@ def train_abstractive_model(model_name: str, dataset, output_dir: str, num_train
         logging_steps=10
     )
     
+    data_collator = DataCollatorForSeq2Seq(tokenizer, model=model)
+    
     trainer = Seq2SeqTrainer(
         model=model,
         args=training_args,
         train_dataset=tokenized_dataset,
         eval_dataset=tokenized_dataset.select(range(min(10, len(tokenized_dataset)))), 
-        tokenizer=tokenizer
+        processing_class=tokenizer,
+        data_collator=data_collator
     )
     
     trainer.train()
