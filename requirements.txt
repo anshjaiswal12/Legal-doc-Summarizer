@@ -1,0 +1,11 @@
+torch
+transformers
+peft
+datasets
+evaluate
+rouge_score
+sumy
+nltk
+requests
+tqdm
+accelerate

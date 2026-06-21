@@ -1,0 +1,17 @@
+transformers>=4.46
+peft
+accelerate
+bitsandbytes
+datasets
+evaluate
+rouge_score
+sumy
+nltk
+spacy
+sentencepiece
+torch
+protobuf
+jupyter
+pandas
+python-docx
+reportlab
