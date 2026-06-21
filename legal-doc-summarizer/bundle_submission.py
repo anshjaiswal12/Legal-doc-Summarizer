@@ -12,9 +12,19 @@ def bundle():
         zipf.write('requirements.txt')
         zipf.write('setup_env.sh')
         zipf.write('project_state.md')
+        zipf.write('sample_contract.txt')
+        
+        # Include source code files
         for root, _, files in os.walk('src'):
             for f in files:
                 zipf.write(os.path.join(root, f))
+                
+        # Include screenshots
+        if os.path.exists('screenshots'):
+            for root, _, files in os.walk('screenshots'):
+                for f in files:
+                    zipf.write(os.path.join(root, f))
+                    
     print("Zip created: legal-doc-summarizer-submission.zip")
     
     with zipfile.ZipFile('legal-doc-summarizer-submission.zip', 'r') as zipf:
@@ -24,3 +34,4 @@ def bundle():
 
 if __name__ == "__main__":
     bundle()
+

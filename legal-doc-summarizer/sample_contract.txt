@@ -1,0 +1,89 @@
+MASTER SERVICES AGREEMENT
+
+This Master Services Agreement (the "Agreement") is entered into as of June 22, 2026 (the "Effective Date"), by and between:
+Apex Technological Solutions LLC, a Delaware corporation with its principal place of business at 100 Innovation Way, Suite 400, Wilmington, DE 19801 ("Provider"), and
+Vertex Global Enterprises Inc., a California corporation with its principal place of business at 500 Market Street, San Francisco, CA 94105 ("Client").
+
+RECITALS
+WHEREAS, Provider is engaged in the business of providing specialized software engineering, cloud architecture, and technical consulting services; and
+WHEREAS, Client desires to retain Provider to perform certain services from time to time, and Provider is willing to perform such services, all on the terms and conditions set forth herein.
+NOW, THEREFORE, in consideration of the mutual covenants, terms, and conditions set forth herein, and for other good and valuable consideration, the receipt and sufficiency of which are hereby acknowledged, the parties agree as follows:
+
+1. SERVICES AND STATEMENTS OF WORK
+1.1 Services. Provider shall provide to Client the services (the "Services") set forth in one or more statements of work (each, a "Statement of Work" or "SOW") executed by both parties. Each SOW shall reference this Agreement and shall be subject to all terms and conditions contained herein.
+1.2 Project Management. Each party shall designate a project manager who will serve as the primary point of contact for matters related to the SOWs. The project managers shall meet regularly to review progress, coordinate activities, and resolve any operational issues.
+1.3 Personnel. Provider shall determine the personnel to be assigned to perform the Services. Provider represents that its personnel are qualified, experienced, and competent to perform the Services in a professional manner.
+
+2. FEES, EXPENSES, AND PAYMENT TERMS
+2.1 Fees. Client shall pay Provider the fees set forth in the applicable Statement of Work. Unless otherwise specified in an SOW, all fees are quoted and payable in United States Dollars (USD).
+2.2 Expenses. Client shall reimburse Provider for all reasonable, pre-approved, out-of-pocket travel and lodging expenses incurred by Provider's personnel in connection with the performance of the Services. Provider shall submit receipts and appropriate documentation for all reimbursement claims.
+2.3 Invoicing and Payment. Provider shall invoice Client monthly in arrears for Services performed. Client shall pay all undisputed invoice amounts within thirty (30) days from the date of the invoice (the "Due Date").
+2.4 Disputed Invoices. If Client disputes any portion of an invoice in good faith, Client shall notify Provider in writing of the dispute within fifteen (15) days of receipt, detailing the reasons for the dispute. The parties shall work diligently to resolve the dispute, and Client shall pay the undisputed portion in accordance with Section 2.3.
+2.5 Taxes. The fees specified in this Agreement do not include any local, state, federal, or foreign taxes, levies, or duties of any nature. Client is responsible for paying all taxes associated with its purchases hereunder, excluding taxes based on Provider's net income.
+
+3. TERM AND TERMINATION
+3.1 Term of Agreement. This Agreement shall commence on the Effective Date and shall remain in effect for an initial term of three (3) years, unless terminated earlier in accordance with the provisions of this Section 3. Thereafter, this Agreement shall automatically renew for successive one (1) year periods unless either party provides written notice of non-renewal at least ninety (90) days prior to the end of the then-current term.
+3.2 Termination for Convenience. Either party may terminate this Agreement or any Statement of Work for convenience at any time upon ninety (90) days' prior written notice to the other party; provided, however, that if an SOW is terminated for convenience, Client shall remain liable for all fees and expenses incurred for Services performed up to the effective date of termination.
+3.3 Termination for Cause. Either party may terminate this Agreement or any SOW for cause immediately upon written notice if:
+(a) The other party commits a material breach of this Agreement or the applicable SOW and fails to cure such breach within thirty (30) days after receiving written notice specifying the breach;
+(b) The other party becomes insolvent, files a petition for bankruptcy, makes an assignment for the benefit of creditors, or has a receiver appointed for its assets.
+3.4 Effect of Termination. Upon the termination or expiration of this Agreement:
+(a) Provider shall immediately cease all performance under any active SOWs, unless otherwise agreed in writing;
+(b) Client shall pay Provider for all Services rendered and expenses incurred up to the effective date of termination;
+(c) Each party shall promptly return or destroy all Confidential Information (as defined herein) of the other party in its possession.
+
+4. INTELLECTUAL PROPERTY RIGHTS
+4.1 Pre-Existing Materials. Each party shall retain sole and exclusive ownership of all intellectual property, materials, tools, methodologies, and know-how owned or developed by such party prior to the Effective Date or developed independently of the Services (collectively, "Pre-Existing Materials").
+4.2 Deliverables. Except as otherwise provided in a specific SOW, upon full and final payment of all applicable fees, Provider hereby assigns to Client all right, title, and interest, including all intellectual property rights, in and to the custom software, reports, documentation, and other materials specifically created and delivered by Provider to Client under an SOW (collectively, the "Deliverables").
+4.3 Provider License. To the extent that Provider incorporates any of its Pre-Existing Materials into the Deliverables, Provider hereby grants to Client a non-exclusive, worldwide, royalty-free, perpetual, irrevocable license to use, copy, modify, and distribute such Pre-Existing Materials solely as incorporated into and necessary for the utilization of the Deliverables.
+4.4 Feedback. Client may provide suggestions, feedback, or ideas regarding Provider's services or products. Provider shall be free to use, disclose, reproduce, license, or otherwise distribute such feedback without any obligation or restriction of any kind.
+
+5. CONFIDENTIALITY AND NON-DISCLOSURE
+5.1 Definition of Confidential Information. "Confidential Information" means all information disclosed by a party ("Disclosing Party") to the other party ("Receiving Party"), whether orally or in writing, that is designated as confidential or that reasonably should be understood to be confidential given the nature of the information and the circumstances of disclosure. Confidential Information includes, without limitation, business plans, customer lists, software code, algorithms, technical specifications, financial data, and the terms of this Agreement.
+5.2 Obligations of Confidentiality. The Receiving Party shall:
+(a) Hold all Confidential Information in strict confidence and use the same degree of care to protect it as it uses to protect its own confidential information of a similar nature, but in no event less than a reasonable standard of care;
+(b) Use the Disclosing Party's Confidential Information solely for the purpose of exercising its rights and performing its obligations under this Agreement;
+(c) Limit access to the Disclosing Party's Confidential Information to its employees, contractors, and advisors who have a need to know such information for purposes of this Agreement and who are bound by confidentiality obligations no less restrictive than those set forth herein.
+5.3 Exceptions. Confidential Information does not include information that:
+(a) Is or becomes publicly known through no breach of this Agreement by the Receiving Party;
+(b) Was already in the lawful possession of the Receiving Party prior to disclosure;
+(c) Is received from a third party without restriction and without breach of any confidentiality obligation;
+(d) Is independently developed by the Receiving Party without reference to or reliance upon the Disclosing Party's Confidential Information.
+5.4 Compelled Disclosure. If the Receiving Party is compelled by law, regulation, or court order to disclose any Confidential Information, it shall provide the Disclosing Party with prompt written notice (to the extent legally permissible) to enable the Disclosing Party to seek a protective order or other appropriate remedy.
+
+6. WARRANTIES AND DISCLAIMER
+6.1 Provider Warranty. Provider warrants that the Services shall be performed in a professional, workmanlike manner in accordance with prevailing industry standards and the specifications outlined in the applicable SOW.
+6.2 Client Warranty. Client warrants that it has the full right, power, and authority to enter into this Agreement and that any materials or information provided to Provider for use in connection with the Services do not infringe the intellectual property rights of any third party.
+6.3 Disclaimer. EXCEPT FOR THE EXPRESS WARRANTIES SET FORTH IN THIS SECTION 6, BOTH PARTIES SPECIFICALLY DISCLAIM ALL WARRANTIES, EXPRESS, IMPLIED, STATUTORY, OR OTHERWISE, INCLUDING BUT NOT LIMITED TO THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.
+
+7. INDEMNIFICATION
+7.1 Provider Indemnity. Provider shall defend, indemnify, and hold harmless Client, its affiliates, officers, directors, and employees from and against any and all claims, damages, liabilities, losses, costs, and expenses (including reasonable attorneys' fees) arising out of or resulting from any third-party claim that the Deliverables infringe the intellectual property rights of such third party; provided that Client promptly notifies Provider in writing of the claim, cooperates fully with Provider's defense, and allows Provider sole control over the defense and settlement of the claim.
+7.2 Client Indemnity. Client shall defend, indemnify, and hold harmless Provider, its affiliates, officers, directors, and employees from and against any and all claims, damages, liabilities, losses, costs, and expenses (including reasonable attorneys' fees) arising out of or resulting from any third-party claim based on (a) Client's misuse of the Deliverables, or (b) any materials provided by Client that infringe the intellectual property rights of a third party.
+7.3 Mitigation. If a Deliverable becomes, or in Provider's opinion is likely to become, the subject of an infringement claim, Provider may, at its option and expense:
+(a) Procure for Client the right to continue using the Deliverable;
+(b) Replace or modify the Deliverable to make it non-infringing while maintaining substantially equivalent functionality; or
+(c) If options (a) and (b) are not commercially practicable, terminate the applicable SOW and refund to Client any pre-paid, unused fees for such Deliverable.
+
+8. LIMITATION OF LIABILITY
+8.1 Exclusion of Consequential Damages. IN NO EVENT SHALL EITHER PARTY BE LIABLE TO THE OTHER PARTY FOR ANY INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, PUNITIVE, OR CONSEQUENTIAL DAMAGES, INCLUDING LOSS OF PROFITS, REVENUE, DATA, OR BUSINESS OPPORTUNITY, ARISING OUT OF OR IN CONNECTION WITH THIS AGREEMENT, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+8.2 Liability Cap. EXCEPT FOR LIABILITY ARISING FROM BREACHES OF CONFIDENTIALITY (SECTION 5) OR INDEMNIFICATION OBLIGATIONS (SECTION 7), EACH PARTY'S MAXIMUM AGGREGATE LIABILITY UNDER THIS AGREEMENT OR ANY STATEMENT OF WORK, WHETHER IN CONTRACT, TORT (INCLUDING NEGLIGENCE), OR OTHERWISE, SHALL NOT EXCEED THE TOTAL FEES PAID BY CLIENT TO PROVIDER UNDER THE SPECIFIC STATEMENT OF WORK GIVING RISE TO THE LIABILITY IN THE TWELVE (12) MONTHS PRECEDING THE CLAIM.
+
+9. GENERAL PROVISIONS AND GOVERNING LAW
+9.1 Governing Law and Dispute Resolution. This Agreement and all disputes arising out of or relating to it shall be governed by, and construed in accordance with, the laws of the State of New York, without regard to its conflict of laws principles. Any legal action, suit, or proceeding arising under this Agreement shall be brought exclusively in the federal or state courts located in New York County, New York, and each party hereby submits to the personal jurisdiction and venue of such courts.
+9.2 Severability. If any provision of this Agreement is found by a court of competent jurisdiction to be invalid, illegal, or unenforceable, the remaining provisions of this Agreement shall remain in full force and effect.
+9.3 Entire Agreement. This Agreement, including all executed Statements of Work and exhibits attached hereto, constitutes the entire agreement between the parties regarding the subject matter hereof and supersedes all prior or contemporaneous agreements, understandings, and negotiations, whether written or oral.
+9.4 Amendments and Waivers. No amendment, modification, or waiver of any provision of this Agreement shall be effective unless it is in writing and signed by authorized representatives of both parties. No failure or delay by either party in exercising any right under this Agreement shall constitute a waiver of that right.
+9.5 Notices. All notices, consents, or other communications required or permitted under this Agreement shall be in writing and sent to the addresses specified above (or to such other address as a party may designate in writing) via certified mail, overnight courier, or electronic mail (with confirmation of receipt).
+9.6 Force Majeure. Neither party shall be liable for any failure or delay in performing its obligations under this Agreement (except for payment obligations) to the extent such failure or delay is caused by events beyond its reasonable control, including acts of God, war, labor disputes, natural disasters, or government restrictions.
+
+IN WITNESS WHEREOF, the parties hereto have executed this Master Services Agreement as of the Effective Date.
+
+APEX TECHNOLOGICAL SOLUTIONS LLC
+By: ___________________________
+Name: Jane Doe
+Title: Chief Executive Officer
+
+VERTEX GLOBAL ENTERPRISES INC.
+By: ___________________________
+Name: John Smith
+Title: Vice President of Operations
